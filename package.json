@@ -1,0 +1,37 @@
+{
+  "name": "gp-cdn-image",
+  "version": "0.1.0",
+  "main": "index.js",
+  "description": "替换文件中的图片地址为cdn地址",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "css-resources": "^0.1.2",
+    "lr-util-debug": "^0.1.0",
+    "lr-util-file": "^0.1.0",
+    "lr-upload-file": "^0.1.0",
+    "getimage": "^0.0.5",
+    "gulp-util": "^3.0.4",
+    "is-relative-url": "^1.0.0",
+    "q": "^1.4.1",
+    "through2": "^0.6.5",
+    "wurl": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanrenqifu/gp-cdn-image.git"
+  },
+  "keywords": [
+    "util",
+    "javascript"
+  ],
+  "author": {
+    "name": "lanren"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanrenqifu/gp-cdn-image/issues"
+  },
+  "homepage": "https://github.com/lanrenqifu/gp-cdn-image"
+}

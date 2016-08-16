@@ -1,0 +1,163 @@
+.qing-play-container .qing-play-game-container .qing-play-tip {
+  width: 112px;
+  height: 364px;
+  background: url(img/tip.jpg) center center no-repeat;
+  position: absolute;
+  top: -4px;
+  right: 32px;
+  color: #ff7200;
+  font-weight: bold;
+  text-align: center;
+}
+.qing-play-container .qing-play-game-container .qing-play-tip .qing-size-big {
+  font-size: 14px;
+}
+.qing-play-container .qing-play-game-container .qing-play-tip .qing-size-small {
+  font-size: 12px;
+}
+.qing-play-container .qing-play-game-container .qing-play-tip .qing-self-title,
+.qing-play-container .qing-play-game-container .qing-play-tip .qing-self-rank,
+.qing-play-container .qing-play-game-container .qing-play-tip .qing-self-label,
+.qing-play-container .qing-play-game-container .qing-play-tip .qing-self-today,
+.qing-play-container .qing-play-game-container .qing-play-tip .qing-self-total {
+  position: absolute;
+  width: 100%;
+}
+.qing-play-container .qing-play-game-container .qing-play-tip .qing-self-title p,
+.qing-play-container .qing-play-game-container .qing-play-tip .qing-self-rank p,
+.qing-play-container .qing-play-game-container .qing-play-tip .qing-self-label p,
+.qing-play-container .qing-play-game-container .qing-play-tip .qing-self-today p,
+.qing-play-container .qing-play-game-container .qing-play-tip .qing-self-total p {
+  margin: 5px;
+}
+.qing-play-container .qing-play-game-container .qing-play-tip .qing-self-title {
+  top: 15px;
+}
+.qing-play-container .qing-play-game-container .qing-play-tip .qing-self-label {
+  top: 158px;
+}
+.qing-play-container .qing-play-game-container .qing-play-tip .qing-self-today {
+  top: 198px;
+}
+.qing-play-container .qing-play-game-container .qing-play-tip .qing-self-total {
+  top: 268px;
+}
+.qing-play-container .qing-play-game-container .qing-play-tip .qing-self-rank {
+  top: 82px;
+  font-size: 20px;
+  left: 42px;
+  width: 27px;
+  overflow: hidden;
+}
+.qing-play-container .qing-play-game-container #qing_play_game {
+  width: 419px;
+  height: 500px;
+  left: 91px;
+  top: 138px;
+  position: absolute;
+}
+.qing-play-container .qing-play-ranklist-container {
+  float: right;
+  position: relative;
+  width: 237px;
+  height: 718px;
+  padding: 28px 32px 17px 32px;
+}
+.qing-play-container .qing-play-share {
+  position: absolute;
+  bottom: 53px;
+  left: 50px;
+}
+.qing-play-container .qing-play-share div {
+  float: left;
+}
+.qing-play-container .qing-play-share .qing-pull-left {
+  margin-right: 10px;
+  line-height: 15px;
+}
+.ranklist-container {
+  width: 100%;
+  height: 100%;
+}
+.ranklist-container .ranklist-tab-container {
+  width: 239px;
+  margin: 0 auto;
+  border-bottom: 1px solid #bcbcbc;
+  height: 28px;
+}
+.ranklist-container .ranklist-tab-container .ranklist-tab {
+  float: left;
+  width: 112px;
+  text-align: center;
+  height: 27px;
+}
+.ranklist-container .ranklist-tab-container .ranklist-tab a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.ranklist-container .ranklist-tab-container .ranklist-tab a:hover {
+  cursor: pointer;
+}
+.ranklist-container .ranklist-tab-container .ranklist-tab .cur a:hover {
+  cursor: default;
+}
+.ranklist-container .ranklist-tab-container .cur.ranklist-tab {
+  border-bottom: 2px solid #00c9bd;
+  color: #00c9bd;
+}
+.ranklist-container .ranklist-tab-container #ranklist_history_tab {
+  margin-left: 14px;
+}
+.ranklist-container .ranklist-content-container .ranklist-content {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.ranklist-container .ranklist-content-container .ranklist-content.cur {
+  display: block;
+}
+.ranklist-container .ranklist-content-container ul {
+  padding: 16px 0;
+  margin: 0;
+}
+.ranklist-container .ranklist-content-container ul li {
+  overflow: hidden;
+  list-style: none;
+  height: 60px;
+  margin-bottom: 9px;
+  font-size: 13px;
+  position: relative;
+}
+.ranklist-container .ranklist-content-container ul li .ranklist-item-index,
+.ranklist-container .ranklist-content-container ul li .ranklist-item-icon,
+.ranklist-container .ranklist-content-container ul li .ranklist-item-nick,
+.ranklist-container .ranklist-content-container ul li .ranklist-item-score {
+  float: left;
+  text-align: center;
+  color: #808080;
+  line-height: 60px;
+  overflow: hidden;
+}
+.ranklist-container .ranklist-content-container ul li .ranklist-item-index {
+  width: 27px;
+  font-size: 16px;
+}
+.ranklist-container .ranklist-content-container ul li .ranklist-index-0,
+.ranklist-container .ranklist-content-container ul li .ranklist-index-1,
+.ranklist-container .ranklist-content-container ul li .ranklist-index-2 {
+  top: 15px;
+  position: relative;
+  width: 27px;
+  height: 29px;
+  background: url(img/1.jpg) center center no-repeat;
+}
+.ranklist-container .ranklist-content-container ul li .ranklist-item-index.ranklist-index-0 {
+  background: url(img/1.png) center center no-repeat;
+}
+.ranklist-container .ranklist-content-container ul li .ranklist-item-index.ranklist-index-1 {
+  background: url(img/2.png) center center no-repeat;
+}
+.ranklist-container .ranklist-content-container ul li .ranklist-item-index.ranklist-index-2 {
+  background: url(/img/3.png) center center no-repeat;
+}
